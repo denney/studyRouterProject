@@ -1,6 +1,6 @@
 <input type="button" value="商品详情" onclick="toProductDetails()">
 <a [routerLink]="['/']">主页</a>
-<a [routerLink]="['/product']">商品详情</a>
+<a [routerLink]="['/product']"  [queryParams]="{id:1}">商品详情</a>
 
 
 <router-outlet></router-outlet>
